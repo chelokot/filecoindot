@@ -3,6 +3,7 @@
 
 //! crypto identifier for filecoindot
 use sp_core::crypto::KeyTypeId;
+use sp_core::MaxEncodedLen;
 
 pub const KEY_TYPE: KeyTypeId = KeyTypeId(*b"fdot");
 
