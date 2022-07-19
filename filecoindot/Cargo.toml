@@ -18,10 +18,10 @@ serde_json = { version = "1.0", features = [ "alloc" ], default-features = false
 derive_more = "^0.99"
 
 # substrate dependencies
-frame-benchmarking = { git = 'https://github.com/paritytech/substrate', branch = 'polkadot-v0.9.13', default-features = false, optional = true }
-frame-support = { git = 'https://github.com/paritytech/substrate', branch = 'polkadot-v0.9.13', default-features = false }
-frame-system = { git = 'https://github.com/paritytech/substrate', branch = 'polkadot-v0.9.13', default-features = false }
-sp-core = { git = 'https://github.com/paritytech/substrate', branch = 'polkadot-v0.9.13', default-features = false }
+frame-benchmarking = { git = 'https://github.com/paritytech/substrate', default-features = false, optional = true }
+frame-support = { git = 'https://github.com/paritytech/substrate', default-features = false }
+frame-system = { git = 'https://github.com/paritytech/substrate', default-features = false }
+sp-core = { git = 'https://github.com/paritytech/substrate', default-features = false }
 scale-info = { version = "1.0", default-features = false, features = ["derive"] }
 
 # filecoindot related
@@ -37,10 +37,10 @@ tokio = { version = "1.14", features = [ "full" ] }
 thiserror = "1.0.30"
 dirs = "4.0.0"
 
-sp-core = { git = 'https://github.com/paritytech/substrate', branch = 'polkadot-v0.9.13', default-features = false }
-sp-runtime = { git = 'https://github.com/paritytech/substrate', branch = 'polkadot-v0.9.13', default-features = false }
-sp-io = { git = 'https://github.com/paritytech/substrate', branch = 'polkadot-v0.9.13', default-features = false }
-sp-keystore = { git = 'https://github.com/paritytech/substrate', branch = 'polkadot-v0.9.13', default-features = false }
+sp-core = { git = 'https://github.com/paritytech/substrate', default-features = false }
+sp-runtime = { git = 'https://github.com/paritytech/substrate', default-features = false }
+sp-io = { git = 'https://github.com/paritytech/substrate', default-features = false }
+sp-keystore = { git = 'https://github.com/paritytech/substrate', default-features = false }
 ipld_hamt = { git = "https://github.com/willeslau/forest", branch = "willes/filecoindot" }
 ipld_amt = { git = "https://github.com/willeslau/forest", branch = "willes/filecoindot" }
 ipld_blockstore = { git = "https://github.com/willeslau/forest", branch = "willes/filecoindot" }
